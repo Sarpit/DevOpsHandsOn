@@ -8,7 +8,7 @@ Resource Requests and Limits.
 
 1. Create a Kubernetes pod named "redis" running with "redis" Docker image.
 2. Set Resource Request and Limits as follows.<br>
-   <b>Request</b>: cpu=10m and memory=50Mi
+   <b>Request</b>: cpu=10m and memory=50Mi<br>
    <b>Limit</b>: cpu=50m and memory=100Mi
  
 Note: Use imperative commands for both
