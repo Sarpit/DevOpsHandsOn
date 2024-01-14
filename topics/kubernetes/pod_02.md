@@ -11,4 +11,4 @@ Resource Requests and Limits.
    <b>Request</b>: cpu=10m and memory=50Mi<br>
    <b>Limit</b>: cpu=50m and memory=100Mi
  
-Note: Use imperative commands for both
+<b>Note</b>: Use imperative commands for both
