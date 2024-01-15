@@ -4,3 +4,4 @@
 |--------|--------|------|----|----|
 | Creating Pod | Pods | [Exercise](pod_01.md) | | |
 | Resource Request | Pods | [Exercise](pod_02.md) | | |
+| Command and Arguments | Pods | [Exercise](pod_03.md) | | |
