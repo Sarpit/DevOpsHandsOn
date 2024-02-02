@@ -8,12 +8,12 @@ In Kubernetes, a namespace is a way to create multiple virtual clusters within t
 </b></details>
 
 <details>
-<summary>Why do we need different namespaces for different applications?</summary></br><b>
+<summary>Why do we need different namespaces for different applications?</summary></br>
 <b>Resource Isolation:</b> Namespaces provide a way to isolate resources between different applications or environments. 
 <b>Access Control:</b> Namespaces enable access control by allowing you to define RBAC (Role-Based Access Control) policies specific to each namespace. This means you can control who can view or modify resources within a particular namespace without affecting resources in other namespaces.
 <b>Resource Quotas and Limits:</b> Namespaces allow you to set resource quotas and limits at the namespace level. This helps in preventing a single application or team from consuming all available resources in the cluster.
 <b>Easier Monitoring and Troubleshooting:</b> With namespaces, you can monitor and troubleshoot applications more efficiently.
-</b></details>
+</details>
 
 # Kubernetes Exercise
 
