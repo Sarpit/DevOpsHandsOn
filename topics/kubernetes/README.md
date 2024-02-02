@@ -22,6 +22,12 @@ In Kubernetes, a namespace is a way to create multiple virtual clusters within t
 
 </b></details>
 
+<details>
+<summary>How to create kubernetes namespace?</summary><br><b>
+
+`kubectl create namespace dev`
+</b></details>
+
 # Kubernetes Exercise
 
 |Name|Topic|Objective & Instructions|Solution|Comments|
