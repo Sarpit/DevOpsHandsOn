@@ -4,9 +4,9 @@
 
 <details>
 <summary>What Namespace is?</summary></br><b>
-In Kubernetes, a namespace is a way to create multiple virtual clusters within the same physical cluster. It is a logical partitioning mechanism that allows you to organize and isolate resources within the cluster. Each namespace provides its own scope for resources, and it's like a virtual cluster within the larger Kubernetes cluster.</br>
+In Kubernetes, a namespace is a way to create multiple virtual clusters within the same physical cluster. It is a logical partitioning mechanism that allows you to organize and isolate resources within the cluster. Each namespace provides its own scope for resources, and it's like a virtual cluster within the larger Kubernetes cluster.</br></b>
 By default, a <b>default</b> namespace is already selected in a cluster to provision workloads.
-</b></details>
+</details>
 
 <details>
 <summary>Why do we need different namespaces for different applications?</summary></br>
