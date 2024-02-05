@@ -22,6 +22,7 @@ By default, a <b>default</b> namespace is already selected in a cluster to provi
 `kubectl create namespace dev`
 </b></details>
 
+<details>
 <summary>How many namespaces are created by default?</summary></br>
 There are 4 namespaces that are created by default
 <b>kube-system</b>: kubernetes component are deployed in this namespace such as ApiServer, ETCD, Scheduler
