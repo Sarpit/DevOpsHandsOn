@@ -22,6 +22,15 @@ By default, a <b>default</b> namespace is already selected in a cluster to provi
 `kubectl create namespace dev`
 </b></details>
 
+<summary>How many namespaces are created by default?</summary></br>
+There are 4 namespaces that are created by default
+<b>kube-system</b>: kubernetes component are deployed in this namespace such as ApiServer, ETCD, Scheduler
+<b>kube-public</b>: Publicly accessible data is stored in this namespace
+<b>kube-node-lease</b>: This namespace holds Lease objects associated with each node. Node leases allow the kubelet to send heartbeats so that the control plane can detect node failure.
+<b>default</b>: workload are created here by default ( if no namespaced is defined )
+</details>
+
+
 # Kubernetes Exercise
 
 |Name|Topic|Objective & Instructions|Solution|Comments|
