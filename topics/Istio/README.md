@@ -21,4 +21,7 @@ Canary releases solves this problem using a safe  approach where both versions o
 * Service</br>
 * Virtual Service</br>
 * Destination Rule</br>
+<summary><br>
+<img src="images/mesh.png" width="500x;" height="350px;"/>
+</summary><br><b>
 </details>
