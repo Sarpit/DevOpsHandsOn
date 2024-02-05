@@ -4,7 +4,7 @@
 
 <details>
 <summary>What are Canary Deployment and why do we need it?</summary></br>
-A simple release method involves deploying the updated version to replace the existing one. Nevertheless, this deployment strategy promptly exposes all users to potential defects introduced by the new version.</br>
+A simple release method involves deploying the updated version to replace the existing one. Nevertheless, this deployment strategy promptly exposes all users to potential defects introduced by the new version.</br></br>
 Canary releases solves this problem using a safe  approach where both versions of the application, the old and the new, run in parallel until the new version is completely validated and ready for all users. The new version, also called the canary, initially receives only a small amount of all application traffic. Therefore, if something goes wrong with this new version of the application, a minimal number of users are affected. As you gain confidence with how the canary works, you progressively route more traffic to it.
 </details>
 
