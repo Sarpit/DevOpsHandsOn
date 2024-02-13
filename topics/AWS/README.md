@@ -180,7 +180,7 @@ Data transfer between instances in different regions is billable for both inboun
 - Public IPv4 addresses are retained when the instance is restarted.
 
 
-# **Elastic IP Address:**
+## **Elastic IP Address:**
 
 - Elastic IPs are preserved even when the instance is in a stopped state.
 - These IPs are static and can be reassigned (moved) between instances.
