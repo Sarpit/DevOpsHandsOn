@@ -3,6 +3,7 @@
 
 ## **EC2** - Elastic compute cloud
 
+
 Amazon **EC2** is a cloud service providing scalable computing power. 
 - Users can create virtual servers called "instances" using pre-made templates known as Amazon Machine Images (AMIs). 
 - AMIs contain necessary info like the operating system. 
