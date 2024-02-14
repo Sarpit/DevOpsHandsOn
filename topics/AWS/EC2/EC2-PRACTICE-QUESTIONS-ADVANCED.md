@@ -1,9 +1,9 @@
-**Scenario-1:**
+# **Scenario-1:**
 ABC Corporation is a multinational company specializing in e-commerce solutions. They operate an extensive online marketplace that connects buyers and sellers globally. The company experiences varying levels of website traffic throughout the day due to different time zones and promotional events. During peak hours, there is a significant surge in user activity, leading to increased demands on their e-commerce platform. To ensure a seamless and responsive user experience, ABC Corporation has decided to leverage cloud services and is considering AWS as their cloud provider.
 
 They plan to deploy their e-commerce application on AWS EC2 instances. The application consists of a web server handling user requests, a database server managing product catalogs and transactions, and additional application servers for background tasks such as order processing and inventory management. ABC Corporation aims to optimize costs while ensuring high availability and scalability to accommodate traffic spikes.
 
-**Question-1:**
+## **Question-1:**
 Considering the e-commerce scenario described for ABC Corporation, which EC2 feature or service would be most appropriate to ensure optimal cost management during non-peak hours while providing the ability to scale during peak traffic?
 
 **Options:**
@@ -20,7 +20,7 @@ Considering the e-commerce scenario described for ABC Corporation, which EC2 fea
 
 
 ## Question 2:
-**Scenario:**
+### **Scenario:**
 XYZ Tech Solutions is a software development company that recently migrated its applications to the AWS cloud. They have a distributed architecture with multiple microservices running on Amazon EC2 instances. The company prioritizes security and wants to implement secure access controls and monitoring for their EC2 instances.
 
 **Question:**
@@ -41,7 +41,7 @@ For ensuring secure access to EC2 instances in XYZ Tech Solutions, which AWS ser
 ---
 
 ## Question 3:
-**Scenario:**
+### **Scenario:**
 XYZ Tech Solutions wants to monitor the performance and health of EC2 instances. For collecting and analyzing metrics, which AWS service should they use?
 
 **Options:**
@@ -59,7 +59,7 @@ XYZ Tech Solutions wants to monitor the performance and health of EC2 instances.
 ---
 
 ## Question 4:
-**Scenario:**
+### **Scenario:**
 XYZ Tech Solutions wants to ensure data at rest on their EC2 instances is encrypted. Which EC2 feature should they use for encrypting EBS volumes attached to their instances?
 
 **Options:**
@@ -77,7 +77,7 @@ XYZ Tech Solutions wants to ensure data at rest on their EC2 instances is encryp
 ---
 
 ## Question 5:
-**Scenario:**
+### **Scenario:**
 To distribute incoming application traffic across multiple EC2 instances, which AWS service should XYZ Tech Solutions use?
 
 **Options:**
@@ -95,7 +95,7 @@ To distribute incoming application traffic across multiple EC2 instances, which 
 ---
 
 ## Question 6:
-**Scenario:**
+### **Scenario:**
 XYZ Tech Solutions wants to launch EC2 instances with a predefined set of configurations, including the AMI, instance type, and security groups. Which EC2 feature enables them to achieve this?
 
 **Options:**
