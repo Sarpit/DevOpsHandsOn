@@ -20,13 +20,13 @@ Amazon **EC2** is a cloud service providing scalable computing power.
 
 ## **Metadata and User Data play essential roles:**
 
-- User data, presented as a script during instance launch, is limited to 16KB and is unencrypted.
-- User data for instances can be accessed at http://169.254.169.254/latest/user-data/ 
+
 - To simplify querying instance metadata, the Instance Metadata Query tool is available. This tool enables users to retrieve instance metadata without manually entering the complete URI or category names.
 
 
 # **Userdata** 
-
+- User data, presented as a script during instance launch, is limited to 16KB and is unencrypted.
+- User data for instances can be accessed at http://169.254.169.254/latest/user-data/ 
  
 
 - Userdata server is AWS managed server that stores userdata of your instance. 
