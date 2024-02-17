@@ -19,7 +19,7 @@ Amazon **EC2** is a cloud service providing scalable computing power.
 **→ Port 22**
 
 ## **Metadata and User Data play essential roles:**
-
+- Instance information can be fetched using metadata, managed by aws metadata server.
 
 - To simplify querying instance metadata, the Instance Metadata Query tool is available. This tool enables users to retrieve instance metadata without manually entering the complete URI or category names.
 
