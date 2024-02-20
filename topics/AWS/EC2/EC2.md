@@ -19,17 +19,24 @@ Amazon **EC2** is a cloud service providing scalable computing power.
 **→ Port 22**
 
 ## **Metadata and User Data play essential roles:**
+- Instance information can be fetched using metadata, managed by aws metadata server.
 
-- User data, presented as a script during instance launch, is limited to 16KB and is unencrypted.
-- User data for instances can be accessed at http://169.254.169.254/latest/user-data/ 
-- To simplify querying instance metadata, the Instance Metadata Query tool is available. This tool enables users to retrieve instance metadata without manually entering the complete URI or category names.
+- The Instance Metadata Query tool is available to simplify querying instance metadata. This tool enables users to retrieve instance metadata without manually entering the complete URI or category names.
 
 
 # **Userdata** 
+- User data, presented as a script during instance launch, is limited to 16KB and is unencrypted.
+- User data for instances can be accessed at http://169.254.169.254/latest/user-data/
+- User-data to configure nginx server ,below
+```
+   #!/bin/bash 
+   sudo apt-get update -y
+   sudo apt install nginx  -y
+   sudo systemctl enable nginx --now
+   echo "<h1>Hello</h1>" >  /var/www/html/index.html
+```
 
- 
-
-- Userdata server is AWS managed server that stores userdata of your instance. 
+- Userdata server is AWS managed server that stores the userdata of your instance. 
 - Everytime instance boot it contact user data server to initiate a script ( set of commands) as you defined -> cloud-init ( a kind of service) 
 
 - You can see system logs when a system starts.  
